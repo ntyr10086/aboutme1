@@ -4,18 +4,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>張煊佩簡介</title>
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:#00008B; font-size:60px;}
+		h2 {color:#00008B; font-size:40px;}
+	</style>
+	
 </head>
 <body>
 	<table width="70%">
 		<tr>
 			<td>
 				<h1>張煊佩</h1>
-				<h2>Hsuan-Pei Chang</h2>
+				<h2 id="h2text">Hsuan-Pei Chang</h2>
 			</td>
-			<td>
-				<img src="cliff.jpg" width="110%"></img>
 
+			<td>
+				<img src="cliff.jpg" width="110%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 			</td>
+
 		</tr>
 	</table>
 <table width="70%" border="1">
@@ -43,7 +50,8 @@
 			</td>
 				
 		</tr>
-	</table>		
+	</table>
+	
 
 </body>
 </html>
